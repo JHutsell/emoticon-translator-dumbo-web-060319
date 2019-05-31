@@ -8,7 +8,7 @@ def load_library(path)
   library = YAML.load_file(path)
   hash = {"get_emoticon" => {}, "get_meaning" => {}}
   library.each do |meaning, emotes|
-    
+    hash["get_meaning"] = 
     
   end
 end

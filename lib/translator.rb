@@ -7,7 +7,10 @@ def load_library(path)
   # code goes here
   library = YAML.load_file(path)
   hash = {"get_emoticon" => {}, "get_meaning" => {}}
-  library.each do |
+  library.each do |meaning, emotes|
+    
+    
+  end
 end
 
 def get_japanese_emoticon
